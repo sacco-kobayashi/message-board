@@ -1,5 +1,5 @@
 class ApplicationController < ActionController::Base
-  include Pagy::Backends
+  include Pagy::Backend
   
   def index
   end
